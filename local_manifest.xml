@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote  name="github"
+                fetch="https://github.com" />
+ 
+ <!-- Device Trees --> 
+ <project path="device/realme/spartan" name="ryukftw/android_device_realme_spartan" remote="github" revision="lineage-22.1" />
+	
+ <!-- Vendor Trees -->
+ <project path="vendor/realme/spartan" name="ryukftw/proprietary_vendor_realme_spartan" remote="github" revision="lineage-22.1" clone-depth="1" />
+	
+ <!-- Kernel Trees-->
+ <project path="kernel/realme/sm8250" name="ryukftw/kernel_realme_sm8250" remote="github" revision="phoeniX-AOSP" clone-depth="1" />
+ 
+</manifest>
